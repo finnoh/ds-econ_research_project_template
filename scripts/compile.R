@@ -7,4 +7,4 @@ knitr::write_bib(file="./assets/citations/packages.bib", prefix = "R-pkg_")
 
 # render and open book
 bookdown::render_book("index.Rmd")
-system('open "./_book/master_thesis_Finn_Hoener.pdf"')
+system('open "./_book/paper.pdf"')

@@ -1,3 +1,3 @@
-book_filename: "master_thesis_Finn_Hoener.Rmd"
+book_filename: "paper.Rmd"
 rmd_files: ["index.Rmd", "01-introduction.Rmd", "02-theory.Rmd", "03-data.Rmd", "04-results.Rmd",
 "05-discussion.Rmd", "06-conclusion.Rmd", "07-references.Rmd"]
