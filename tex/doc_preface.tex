@@ -1,0 +1,70 @@
+\pagenumbering{alph}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% Title Page %%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+\thispagestyle{empty}\enlargethispage{\the\footskip}%
+\begin{center}
+    \vspace*{3cm}
+    {\setstretch{1.66} \textbf{{\maintitle}}\par }%
+    \vskip.4in
+    \begin{doublespace}
+    Term Paper \\
+    by {\myname} \\
+    {\semester} \\
+    \vfill
+    Seminar \\
+    Name Supervisor \\
+    \myuniversity \\
+    
+    \end{doublespace}
+
+\end{center}
+\vskip .5in
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%% Uncomment for Signatures %%%%%%%%%%%%%%
+%Approved: \hskip 2.9in Date:\\[1.2em]
+% \hskip -0.24in Approved: \hskip 2.85in Date:\\[1.2em]
+% \rule{3.5in}{.5pt} \hskip 0.1in \rule{2in}{.5pt} \\[.01in]
+% \Chair \\[.14in]
+% \rule{3.5in}{.5pt} \hskip 0.1in \rule{2in}{.5pt}  \\[.01in]
+% \Advisor \\[.14in]
+% \rule{3.5in}{.5pt} \hskip 0.1in \rule{2in}{.5pt} \\[.01in]
+% \OtherInternalMember \\[.14in]
+% \rule{3.5in}{.5pt} \hskip 0.1in \rule{2in}{.5pt} \\[.01in]
+% \ExternalMember \\[.14in]
+% \\[.14in]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{titlepage}
+ 
+\pagenumbering{roman} \setcounter{page}{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%% Table of contents %%%%%%%%%%%%%%%%%
+
+\begin{singlespace}
+\tableofcontents
+\end{singlespace}
+
+\clearpage
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+
+\clearpage
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+
+%\clearpage
+%\addcontentsline{toc}{chapter}{\nomname}
+%\printnomenclature
+
+\clearpage
+\normalsize
+\mySpacing
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\cftlocalchange{toc}{450pt}{0cm} %see tocloft documentation
+\cftaddtitleline{toc}{chapter}{Chapter}{}
+\cftlocalchange{toc}{1.55em}{2.55em}

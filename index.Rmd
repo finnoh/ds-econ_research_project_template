@@ -1,0 +1,26 @@
+--- 
+bibliography: [./assets/citations/citations.bib, ./assets/citations/packages.bib, ./assets/citations/data_source.bib]
+nocite: |
+  ['@R-pkg_tidyverse', '@R-pkg_ggplot2', '@R-pkg_rmarkdown', '@R-pkg_knitr', '@R-pkg_bookdown', '@ds_OFR', '@ds_ECB']
+output:
+  bookdown::pdf_document2:
+    toc: no
+    template: null
+    includes:
+      in_header: tex/preamble.tex
+      before_body: tex/doc_preface.tex
+documentclass: book
+classoption: oneside
+fontsize: 11pt
+subparagraph: yes
+link-citations: yes
+biblio-style: apalike
+---
+
+```{r, echo=FALSE, warning = FALSE, message = FALSE}
+library(tidyverse)
+library(kableExtra)
+library(vistime)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, fig.width = 9, fig.height = 6, dpi = 300)
+options(knitr.table.format = "latex")
+```

@@ -1,0 +1,161 @@
+---
+title: NBFIs and the Stress in Money Markets during the Covid-crisis
+subtitle:  Topic 8
+author: Finn-Ole Höner
+institute: Seminar on Non-Bank Financial Intermediaries (Dr. Andreas Schrimpf)
+date: "22-01-2022"
+fontsize: 12pt
+output:
+  beamer_presentation:
+#    keep_tex: true
+    toc: false
+    slide_level: 2
+    includes:
+      in_header: tex/beamer_preamble.tex
+classoption: "aspectratio=169"
+bibliography: citations.bib 
+
+---
+```{r, echo=FALSE, warning = FALSE, message = FALSE}
+library(tidyverse)
+library(kableExtra)
+library(vistime)
+library(grid)
+library(gridExtra)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, out.width = "85%", out.height = "100%", dpi=300)
+options(knitr.table.format = "latex")
+fs <- theme(text = element_text(size = 18), axis.text = element_text(size = 14))
+```
+
+# The March Market Turmoil
+
+## The Covid-19 Pandemic
+
+```{r fig.align='center'}
+plot_covid + labs(caption = "", x="")  + fs
+```
+
+## Disturbances in Financial Markets
+
+```{r covid_fm, fig.align='center'}
+gridExtra::grid.arrange(plot_msci + labs(title = "", caption = "", x="") + fs, plot_yield_spread + labs(caption = "", x="") + fs, nrow = 2, top = textGrob("MSCI World and 10y Government Bonds",gp=gpar(fontsize=20,font=3)))
+```
+
+## The Money-Market and its NBFIs
+
+Short term funding market, which provides funding to banks, corporations and governments. Borrowers look for financing of operations, investors look to invest their money at a market rate of return.
+
+- Money Market Funds
+- Broker Dealers
+- Hedge Funds
+- Principal Trading Firms
+
+\bigskip
+
+### Focus on three Key Players in the US market
+
+- Government and Prime MMFs
+- Broker Dealers
+- *Central banks (the Fed)*
+
+## Differences between Government and Prime MMFs
+::: rows
+
+:::: row
+
+\centering
+```{r, fig.align='center'}
+df_table %>% kable(align = "c")
+```
+
+::::
+\vfill
+:::: row
+
+```{r, fig.align='center', out.height="60%", out.width="50%"}
+plot_orf_invest_type + labs(caption = "", x = "") + fs
+```
+
+::::
+
+:::
+
+
+# Analysis of these actors in the March Market Turmoil
+
+## Research Questions
+
+1. *What was the role of NBFIs in the market stress of March 2020? Which factors related to the business models of NBFIs played a destabilizing role?*
+
+2. *What role did broker-dealers play during the stress episode?*
+
+3. *What was the role of central banks and through which tools did they intervene to restore market functioning? What tools were effective and why?*
+
+## RQ1 - Role of the NBFIs
+
+- Flow from prime to government MMFs [see @li2021; @eren2020a; @fsb2020a]
+- Broker dealers tried to intermediate fire-sales [see @fsb2020a]
+- Prime MMFs liquidity supply dried up, increasing funding costs for others
+
+## RQ1 - Role of the NBFIs
+
+```{r libor, fig.align='center'}
+
+grid.arrange(plot_libor_tenor + labs(x = "", caption = "") + fs + theme(legend.position = "bottom") + guides(colour = guide_legend(nrow = 1)), plot_libor_mat + labs(x = "", caption = "") + fs + theme(legend.position = "none"), nrow = 2, top = textGrob("LIBOR",gp=gpar(fontsize=20,font=3))) 
+
+```
+
+
+## RQ1 - NBFIs' Destabilizing Factors
+
+@bouveret2021 collect a couple of destabilizing factors:
+
+- MMF's large footprint in e.g. the repo market lead to disruptions [also @paddrik2021]
+- Portfolio overlap 
+- Low liquidity
+- Floating NAV
+- Run risk (redemption gates and fees, credit risk)
+
+
+## RQ2 - Role of Broker Dealers
+- Difficulties to take on new liabilities (deleveraging) and to sell off acquired assets (lack of cash) [compare @aramonte2021]
+- Balance sheet constraints
+- Increased funding costs (repos became more expensive)
+- Operational struggles (move to home-office) [@fsb2021]
+- Insertion point for central bank interventions [@boyarchenko2021]
+
+## RQ3 - Central Bank Interventions
+::: rows
+
+:::: row
+
+The Fed intervened with a multitude of measures targeted at different areas of the financial markets.
+
+\vfill
+
+::::
+
+:::: row
+\centering
+```{r, fig.align="center"}
+cb_table %>% knitr::kable(align = "c")
+```
+
+::::
+:::
+
+## RQ3 - Tools' Effectiveness
+- Existing SEC regulations (gates and fees) were detrimental [@li2021]
+- Rebound flows to prime funds, due to loans for broker dealers (MMLF)
+- Market improvements for CP following announcement of the CPFF
+- Foreign exchange swap lines helped to divert some stress away from US MMFs and to transmit the Fed's interventions
+
+
+# Summary - RQs
+
+1) The fragility of prime MMFs led to their liquidity provision coming to a halt, causing problems for other market participants
+2) Broker dealers were not able to intermediate the large, one-directional, flow of assets
+3) Central bank interventions were key to remove liquidity frictions, especially the MMLF
+
+## References {.allowframebreaks}
+
