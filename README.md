@@ -4,7 +4,7 @@ Thanks for subscribing to [ds-econ.com](https://www.ds-econ.com)! 🎉
 
 This is a R based template for writing papers and compiling slides. [It follows the "One year to dissertate"" post by Lucy D'Agostino McGowan](https://livefreeordichotomize.com/2018/09/14/one-year-to-dissertate/).
 
-Make sure to set up your own GitHub repository for your writing project!
+Make sure to set up your own GitHub repository for your writing project! Simply click "Use this Template" above!
 
 ## How to use it?
 - Write your text in the `.Rmd` files for the different chapters of your paper. You can use text, code, and your code's output (see [bookdown](https://bookdown.org) for more information)
