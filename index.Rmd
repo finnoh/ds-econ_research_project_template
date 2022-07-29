@@ -11,7 +11,7 @@ output:
       before_body: tex/doc_preface.tex
 documentclass: book
 classoption: oneside
-fontsize: 11pt
+fontsize: 12pt
 subparagraph: yes
 link-citations: yes
 biblio-style: apalike

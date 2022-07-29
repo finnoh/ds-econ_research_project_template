@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.15)  29 JUL 2022 10:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.29)  29 JUL 2022 11:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **paper.tex
 (./paper.tex
 LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-07-14> (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/base/book.cls
+L3 programming layer <2022-07-15> (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
-(/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/base/bk11.clo
-File: bk11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@chapter=\count186
@@ -346,6 +346,19 @@ LaTeX Info: Redefining \addtolength on input line 81.
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
 \fn@notes=\box60
 \fn@width=\dimen170
+) (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+(/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen171
+\Gin@req@width=\dimen172
 ) (./tex/params.tex) (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/base/alltt.sty
 Package: alltt 2021/01/29 v2.0g defines alltt environment
 ) (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
@@ -356,14 +369,14 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@cnth=\count297
 \Gm@cntv=\count298
 \c@Gm@tempcnt=\count299
-\Gm@bindingoffset=\dimen171
-\Gm@wd@mp=\dimen172
-\Gm@odd@mp=\dimen173
-\Gm@even@mp=\dimen174
-\Gm@layoutwidth=\dimen175
-\Gm@layoutheight=\dimen176
-\Gm@layouthoffset=\dimen177
-\Gm@layoutvoffset=\dimen178
+\Gm@bindingoffset=\dimen173
+\Gm@wd@mp=\dimen174
+\Gm@odd@mp=\dimen175
+\Gm@even@mp=\dimen176
+\Gm@layoutwidth=\dimen177
+\Gm@layoutheight=\dimen178
+\Gm@layouthoffset=\dimen179
+\Gm@layoutvoffset=\dimen180
 \Gm@dimlist=\toks26
 ) (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/nomencl/nomencl.sty
 Package: nomencl 2021/11/10 v5.6 Nomenclature package
@@ -398,8 +411,8 @@ Package tocbasic Info: babel extension for `nlo' omitted
 (tocbasic)             because of missing \bbl@set@language on input line 187.
 Package tocbasic Info: babel extension for `nls' omitted
 (tocbasic)             because of missing \bbl@set@language on input line 188.
-\nomlabelwidth=\dimen179
-\nom@tempdim=\dimen180
+\nomlabelwidth=\dimen181
+\nom@tempdim=\dimen182
 \nomitemsep=\skip63
 ) (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
@@ -426,23 +439,10 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip67
-\fb@frw=\dimen181
-\fb@frh=\dimen182
-\FrameRule=\dimen183
-\FrameSep=\dimen184
-) (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-(/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-(/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 107.
-)
-\Gin@req@height=\dimen185
-\Gin@req@width=\dimen186
+\fb@frw=\dimen183
+\fb@frh=\dimen184
+\FrameRule=\dimen185
+\FrameSep=\dimen186
 ) (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip68
@@ -622,9 +622,9 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ) (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-Package hyperref Info: Option `bookmarksnumbered' set `false' on input line 102.
-Package hyperref Info: Option `bookmarksopen' set `false' on input line 102.
-Package hyperref Info: Option `colorlinks' set `true' on input line 102.
+Package hyperref Info: Option `bookmarksnumbered' set `false' on input line 115.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 115.
+Package hyperref Info: Option `colorlinks' set `true' on input line 115.
 (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/05/18 v4.0.3 Extensive control of page headers and footers
 \f@nch@headwidth=\skip121
@@ -642,103 +642,40 @@ Package: fancyhdr 2022/05/18 v4.0.3 Extensive control of page headers and footer
 \@bls=\dimen270
 \@float@every@Box=\toks40
 \c@Box=\count325
-(/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen271
-\WF@size=\dimen272
-\c@WF@wrappedlines=\count326
-\WF@box=\box68
-\WF@everypar=\toks41
-Package: wrapfig 2003/01/31  v 3.6
-) (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/tabu/tabu.sty
-Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
-(/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/varwidth/varwidth.sty
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box69
-\sift@deathcycles=\count327
-\@vwid@loff=\dimen273
-\@vwid@roff=\dimen274
-)
-\c@taburow=\count328
-\tabu@nbcols=\count329
-\tabu@cnt=\count330
-\tabu@Xcol=\count331
-\tabu@alloc=\count332
-\tabu@nested=\count333
-\tabu@target=\dimen275
-\tabu@spreadtarget=\dimen276
-\tabu@naturalX=\dimen277
-\tabucolX=\dimen278
-\tabu@Xsum=\dimen279
-\extrarowdepth=\dimen280
-\abovetabulinesep=\dimen281
-\belowtabulinesep=\dimen282
-\tabustrutrule=\dimen283
-\tabu@thebody=\toks42
-\tabu@footnotes=\toks43
-\tabu@box=\box70
-\tabu@arstrutbox=\box71
-\tabu@hleads=\box72
-\tabu@vleads=\box73
-\tabu@cellskip=\skip132
-) (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/threeparttable/threeparttable.sty
-Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box74
-) (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/threeparttablex/threeparttablex.sty
-Package: threeparttablex 2013/07/23 v0.3 by daleif
-(/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/environ/environ.sty
-Package: environ 2014/05/04 v0.3 A new way to define environments
-(/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/trimspaces/trimspaces.sty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-))
-\TPTL@width=\skip133
-) (/Users/hoener/Library/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box75
-\UL@hyphenbox=\box76
-\UL@skip=\skip134
-\UL@hook=\toks44
-\UL@height=\dimen284
-\UL@pe=\count334
-\UL@pixel=\dimen285
-\ULC@box=\box77
-Package: ulem 2019/11/18
-\ULdepth=\dimen286
-) (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/makecell/makecell.sty
-Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen287
-\c@nlinenum=\count335
-\TeXr@lab=\toks45
-) (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+\cslhangindent=\skip132
+\csllabelwidth=\skip133
+(/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count336
-\l__pdf_internal_box=\box78
+\l__color_backend_stack_int=\count326
+\l__pdf_internal_box=\box68
 ) (./paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 337.
+LaTeX Font Info:    ... okay on input line 337.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 337.
+LaTeX Font Info:    ... okay on input line 337.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 337.
+LaTeX Font Info:    ... okay on input line 337.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 337.
+LaTeX Font Info:    ... okay on input line 337.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 337.
+LaTeX Font Info:    ... okay on input line 337.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 337.
+LaTeX Font Info:    ... okay on input line 337.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 337.
+LaTeX Font Info:    ... okay on input line 337.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 337.
+LaTeX Font Info:    ... okay on input line 337.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 337.
+LaTeX Font Info:    ... okay on input line 337.
 (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 315.
+Package hyperref Info: Link coloring ON on input line 337.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -758,12 +695,12 @@ Package hyperref Info: Link coloring ON on input line 315.
 * \topmargin=-36.135pt
 * \headheight=12.0pt
 * \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=27.46295pt
-* \marginparwidth=62.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=47.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -773,15 +710,13 @@ Package hyperref Info: Link coloring ON on input line 315.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package tocbasic Info: usage of `tocbibind' detected on input line 315.
+Package tocbasic Info: usage of `tocbibind' detected on input line 337.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
-Package caption Info: threeparttable package is loaded.
-Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count337
+\c@lstlisting=\count327
 [1
 
 
@@ -803,7 +738,7 @@ LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 3
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 3.
+(Font)              <12> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -816,8 +751,8 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 (/Users/hoener/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (55.3435pt too wide) in paragraph at lines 8--8
- [][] [][]\T1/lmr/m/n/10.95 Chap-ter[][] []
+Overfull \hbox (58.1576pt too wide) in paragraph at lines 8--8
+ [][] [][]\T1/lmr/m/n/12 Chap-ter[][] []
  []
 
 )
@@ -842,10 +777,15 @@ Overfull \hbox (55.3435pt too wide) in paragraph at lines 8--8
 
 ]
 Chapter 1.
+<paper_files/figure-latex/diamonds-1.pdf, id=42, 650.43pt x 433.62pt>
+File: paper_files/figure-latex/diamonds-1.pdf Graphic file (type pdf)
+<use paper_files/figure-latex/diamonds-1.pdf>
+Package pdftex.def Info: paper_files/figure-latex/diamonds-1.pdf  used on input line 417.
+(pdftex.def)             Requested size: 433.63216pt x 289.0881pt.
 [1
 
 
-]
+ <./paper_files/figure-latex/diamonds-1.pdf>]
 Chapter 2.
 [2
 
@@ -869,18 +809,18 @@ Chapter 6.
 
 ] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 19227 strings out of 479983
- 314532 string characters out of 5887130
- 656530 words of memory out of 5000000
- 37032 multiletter control sequences out of 15000+600000
- 498708 words of font info for 57 fonts, out of 8000000 for 9000
+ 18049 strings out of 479983
+ 295443 string characters out of 5887130
+ 634228 words of memory out of 5000000
+ 35881 multiletter control sequences out of 15000+600000
+ 505868 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 110i,5n,117p,1194b,463s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/Users/hoener/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</Users/hoener/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Users/hoener/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb>
-Output written on paper.pdf (11 pages, 60602 bytes).
+ 110i,6n,117p,1194b,463s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/Users/hoener/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</Users/hoener/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/hoener/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/hoener/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/hoener/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
+Output written on paper.pdf (11 pages, 1711077 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 152 PDF objects out of 1000 (max. 8388607)
+ 127 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

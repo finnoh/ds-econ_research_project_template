@@ -1,2 +1,7 @@
 # Introduction
+This is your great writing. Figure \@ref(fig:diamonds) shows the market for diamonds.
+
+```{r diamonds, fig.cap="Prices of diamonds of different weight and color."}
+plot_diamonds
+```
 

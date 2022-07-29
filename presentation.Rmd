@@ -27,7 +27,12 @@ options(knitr.table.format = "latex")
 fs <- theme(text = element_text(size = 18), axis.text = element_text(size = 14))
 ```
 
-# Slide 1
+# The Diamond Market
+
+```{r}
+plot_diamonds
+```
+
 
 # Slide 2
 
