@@ -3,7 +3,7 @@
 **Thanks for subscribing to [ds-econ.com](https://www.ds-econ.com)!** 🎉
 > Haven't subscribed yet? Do so [here!](https://www.ds-econ.com/#/portal/signup/free)
 
-Not only do you find the research template in this repository, but also a **exclusive forum for subscribers** under the tab "discussions"!
+Not only do you find the research template in this repository, but also a **exclusive forum for subscribers** under the **tab "discussions"**!
 
 This is a R based template for writing papers and compiling slides. [It follows the "One year to dissertate"" post by Lucy D'Agostino McGowan](https://livefreeordichotomize.com/2018/09/14/one-year-to-dissertate/).
 
